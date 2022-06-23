@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(33, 19, 2);
+        }.section
+        { display: block;
+            text-align: center;
+            position: absolute;
+            left: 50%;
+            top:50%;
+    transform: translate(-50%, -50%);
+        }
+        .contato{
+            max-width: 700px;
+        }
+        .form{
+           display: flex;
+            flex-direction: column;
+        }
+        h2{
+            color: white;
+        }
+        .field{
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid black;
+            border-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+        textarea{
+            height: 100px;
+        }
+        input[type="submit"]{
+            background-color: green;
+            padding: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        input[type="submit"]:hover{
+            background-color: rgb(84, 232, 84);
+            transition: 1s;
+        }
+        input[type="reset"]{
+            background-color: brown;
+            padding: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 5px;
+            border-radius: 5px;
+        }
+        input[type="reset"]:hover{
+            background-color: rgb(243, 117, 117);
+            transition: 1s;
+        }
+        p{
+            padding: 5px;
+            text-align: right;
+        }
+        p a{
+            font-weight: bold;
+            color:black;
+            text-decoration: none;
+            cursor: pointer;
+            background-color: blanchedalmond;
+            padding: 3px;
+            border-radius: 5px;
+        }
+        p a:hover{
+            color: white;
+            background-color: rgba(92, 230, 92, 0.833);
+            transition: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <section class="section">
+        <div class="contato">
+            <h2>Contato</h2>
+            <form class="form"  action="mailto:
+            " method="POST" enctype="text/plain">
+                <input class="field" type="text" nome="nome" placeholder="Nome" required>
+                <input class="field" type="email" nome="email" placeholder="Email" required>
+                <textarea class="field" name="msg"  cols="30" rows="5" placeholder="DIGITE AQUI" required></textarea>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+
+            </form> 
+        </div> 
+        <p><a class="voltar" href="../../index.html"> Voltar a pagina</a></p>
+    </section>
+</body>
+</html>

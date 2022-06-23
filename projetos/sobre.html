@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon-rsr4.png" type="image/x-icon">
+    <title>Depoimento</title>
+    <style>
+        :root{
+    --cor0:#000000;
+    --cor1:#ea10e3fa;
+    --cor2:#c8c2c2;
+    --cor3:#f1090981;
+    --cor4:#00000097;
+    --cor5:#0404b2;
+    --cor6:rgb(236, 233, 233);
+     
+}
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            width: 95vw;
+            margin: 0 auto;
+            height: 100vh;
+            background-color: var(--cor4);
+            font-size:0.9em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        @media(min-width:1000px){  
+            .cabecalho{
+                height:12vh;
+                background-color: var(--cor4);}
+            .cabecalho h1{
+                padding-top: 25px;
+                color: var(--cor6);}
+            .corpo{ 
+                max-width: 85vw;
+                margin: 0 auto;
+                height: 75vh;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 75vh;}
+            .rodape{
+                height: 6vh;
+                background-color: var(--cor4);}
+            .sobre{
+                padding-top: 50px;
+                background-image: linear-gradient(to left,var(--cor4) ,var(--cor6)); }  
+            .projetos{
+                padding-top: 50px;
+                background-image: linear-gradient(to left,var(--cor6),var(--cor4));}
+            .exp {
+                margin-left: 50px;
+                width: 550px;
+                height: 400px;} 
+            .exp h2{
+                margin-left: 100px;}
+            .exp th{
+                height: 30px;}
+            .exp #th3, #th1{
+                width: 80px;}
+            .exp #th4{
+                width: 300px; } 
+        }
+      body h1{
+        color: var(--cor6);
+        padding-top: 25px;
+        text-align: center;
+        margin-bottom: 10px;}
+        .projetos{
+        padding-bottom: 5px;}
+        .corpo{
+        background-color: var(--cor2);}
+        .corpo h2{
+            padding-top: 10px;
+            margin-left: 60px;}
+        .sobre p{
+            padding: 15px;
+            text-indent: 20px;
+            margin-left: 20px;
+            margin-right: 20px;}
+        .exp{ 
+            height: 300px;
+           background-color:none;
+            box-shadow: inset -0px -8px 13px var(--cor4);
+            padding-top: 0px;
+            margin: 10px; }
+        .exp tr th {
+            padding: 0px;}
+        .exp td{
+            border: 2px solid var(--cor4);
+            padding-left: 5px;}
+        .rodape div{
+            width: 185px;}
+         .rodape{
+            background-color: none;
+            height: 70px;
+            padding-top: 15px;
+            font-weight: bold;
+            position: relative;}
+        .rodape div{
+            border-radius: 5px;
+            text-align: center;
+            padding: 4px;
+            position: absolute;
+            top: 5px;
+            right: 7%;}  
+        
+        .rodape a{
+            color: var(--cor6);}
+        .rodape a:hover{
+            background-color: var(--cor2);
+            padding: 5px;
+            border-radius: 5px;
+            color: var(--cor0);
+            transition: 0.7s;}
+    </style>
+    <title>Riclaudio Rodrigues</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Riclaudio De Souza Rodrigues</h1>  
+    </header>
+    <main class="corpo">  
+       <div class="sobre">  
+            <h2>Depoimento</h2>
+            <p>Sou brasileiro de origem humilde, nascido no interior da Bahia, na cidade de o Boquira,
+                aluno de escola pública, que sonhava em cursor o ensino superior em uma boa
+                 universidade e que através dos estudos conseguiria um bom trabalho, pra mudar de vida.
+                  O tempo passou e as dificuldade aumentaram e as oportunidade diminuíram, mas nunca 
+                  deixei de estudar sempre buscando novos conhecimentos e desafios na minha vida.
+            </p>
+            <h2>Trajetória</h2>
+            <p>
+                No ano de 2010 me mudei para o estado de São Paulo, 
+                em busca de trabalho e com um desejo de prosseguir com os estudos.
+                 Durante os anos seguintes trabalhei em diversas empresas, 
+                 Sempre buscando evoluir profissionalmente. 
+                Nestes períodos não havia tido grande oportunidade de carreira, ou de trabalhar
+                 diretamente na área de tecnologia, no qual sempre foi meu sonho. 
+            </p>
+            <p>
+                No ano de 2018 comecei a faculdade no curso de análise e desenvolvimento
+                 de sistemas, na universidade nove de julho, no polo Santo Amaro SP.
+                  Desde então decidi mudar de profissão, passei a me preparar para o
+                   mercado, intensifiquei meus estudos, busquei vários cursos online,
+                    foram e pesquisas, com objetivo de ingressar no mercado de tecnologia. 
+            </p>
+        </div>
+        <div class="projetos">
+            <h2>Experiâncias profissional</h2>
+            <section class="projeto">
+                <table class="exp">
+                    <tr id="coluna1">
+                        <th id="th1" >Função</th>
+                        <th id="th2" >Empresa</th>
+                        <th id="th3">Períude</th>
+                        <th id="th4">Atribuições</th>
+                    </tr>
+                        <tr >
+                        <td><p> Auxiliar administrativo.</p> </td>
+                        <td><p> Arise Abc alimento - ME.</p></td>
+                        <td><p> Inicio 02/11/2011 Fim 23/09/2018.</p></td>
+                        <td><p> Rotina diária de um escritório, gestão de recursos humanos, 
+                                gestão de sistema de vendas, controle de notas, contas pagas e a pagar, fechamento de caixa e controle de vendas.</p></td>
+                    </tr>
+                    <tr >
+                        <td><p> Maçariqueiro.</p></td>
+                        <td><p> M-fer comercio de sucatas LTDA.</p> </td>
+                        <td><p>  Inicio 15/07/2020 Fim 21/05/2021.</p> </td>
+                        <td><p> Desmontagem de galpões industriais, corte ar quente com maçarico,
+                            operador de plataforma elevatória. </p></td>
+                    </tr>
+                    <tr >
+                        <td><p>Frentista de túnel. </p></td>
+                        <td><p>Acciona construtora SA. </p></td>
+                        <td><p> inicio 21/10/2021 Fim 10/06/2022</p></td>
+                        <td><p>Serviços manuais, 
+                            colocação de chumbadores usando martel de coluna, 
+                            amarração de telas.  </p></td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+    </main>
+    <footer class="rodape">
+        <div>
+            <p> <a href="../index.html" rel="next"><<< Página principal >>> </a></p>
+        </div>
+    </footer>
+</body>
+</html>
