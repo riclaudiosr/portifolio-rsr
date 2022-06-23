@@ -87,7 +87,13 @@
             columns: 1;
             text-align: justify;
             padding-left: 50px;
-        }@media(min-width:1000px){
+        }
+        .conteudo ul{
+            margin-bottom: 10px;
+            list-style: disc;
+        }
+        
+        @media(min-width:1000px){
             .conteudo{
                 padding: 10px;
                 font-size: 0.9em;
