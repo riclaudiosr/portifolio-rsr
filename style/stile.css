@@ -109,8 +109,8 @@ border-bottom-right-radius: 2px;
 }
 #menu a {
   padding: 0.6rem 0;
-  margin-left: 80%;
-  width: 15vw;
+  margin-left: 75%;
+  width: 20%;
   cursor: pointer;
   color: var(--cor3);
 }
