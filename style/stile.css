@@ -292,8 +292,9 @@ border-bottom-right-radius:2px;}
   background-size:cover;
   background-attachment:fixed;} 
 .item{
+  text-align: justify;
   background-color:var(--cor7);
-  height:250px;
+  height:260px;
  padding-bottom:20px;}
  
 @media(min-width:900px){
@@ -344,6 +345,7 @@ border-bottom-right-radius:2px;}
   border-top-right-radius:10px;
   border-top-left-radius:10px;}
 #descricao{
+  padding: 5px;
   margin-top:5px;
   height:80px;
   box-shadow:inset 8px -8px 21px var(--cor7);}
