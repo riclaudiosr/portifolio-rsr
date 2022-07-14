@@ -75,7 +75,7 @@ border-bottom-right-radius:2px;}
     top:90px;
     left:0%;
     background:var(--cor7);
-    transition:0.7s;
+    transition: all 0.9s ease;
     z-index:1000px;
     height:0px;
     visibility:hidden;
@@ -178,6 +178,7 @@ border-bottom-right-radius:2px;}
   padding-top:5px;
   font-size:1.4em;}
 .icone{
+  cursor: pointer;
   margin-left:70%;
   width:40px;
   height:120px;
@@ -186,26 +187,39 @@ border-bottom-right-radius:2px;}
   display:grid;
   grid-template-rows:40px 40px 40px;
   grid-gap:5px;}
-#git{
-  width:40px;
-  height:40px;
-  background-color:var(--cor4);
-  border-radius:20px;}
-#git:hover{
-  background-color:var(--cor8);}
-#face{
-  width:40px;
-  height:40px;
+  .git{
+  box-shadow: 1px 1px 1px 1px var(--cor7);
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+   width:30px;
+  height:30px;
+  border-radius: 15px; 
+  background-color:var(--cor0);}
+.face{ 
+  box-shadow: 1px 1px 1px 1px var(--cor7);
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  width:30px;
+  height:30px;
   background-color:var(--cor5);
-  border-radius:5px;}
-#face:hover{
+  border-radius:15px;}
+.link{
+  color: var(--cor8);
+  box-shadow: 1px 1px 1px 1px var(--cor7);
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  width:30px;
+  height:30px;
+  border-radius: 15px;
   background-color:var(--cor4);}
-#link{
-  width:40px;
-  height:40px;
+.git:hover, .face:hover, .link:hover{
+  border: 1px solid var(--cor0);
+  transition: all .3s ease;
+  color: var(--cor4);
   background-color:var(--cor8);}
-#link:hover{
-  background-color:var(--cor4);}
 .inform{
   box-shadow:inset 8px 8px 11px var(--cor7);
   display:grid;
