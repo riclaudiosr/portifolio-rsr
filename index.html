@@ -1,153 +1,226 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-	<link rel="shortcut icon" href="imagens/favicon-rsr4.png" type="image/x-icon">
-    <title>Portiólio </title>
-    <link rel="stylesheet" href="./style/stile.css">
-</head>
-<body class="pagina">
-	<header id="header">
-		<span class="logo">Portifólio</span>
-		<nav id="nav">
-		  <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
-			<span id="hamburger"></span>
-		  </button>
-		  <ul id="menu" role="menu">
-			<li><a href="projetos/sobre.html">Sobre</a></li>
-			<li><a href="./projetos/form_curriculo/curriculo.html">Curriculo</a></li>
-			<li><a href="projetos/certificados/certi.html" target="_blank">Certificados</a></li>
-			<li><a href="projetos/form_email/index.html">Contato</a></li>
-		  </ul>
-		</nav>
-	</header>
-	<script src="./script.js"></script>
-    <main  class="main">
-		<section class="fundo">			
-			<table class="cabecalho">
-				<tr>
-					<td class="tema">
-						<h1 >Riclaudio de Souza Rodrigues</h1>
-						<p>Desenvolvedor Júnior</p>
-					</td>
-					<td class="img">
-						<div id="imagem">
-							<img class="imagemperfi" src="imagens/perfil03.png" alt="imagem-perfil">
-							</div>
-							<div class="icone">
-								<div class="git">
-								<a href="https://github.com/riclaudiosr" target="_blank"><i class="fa-brands fa-github"></i></a>
-								</div>
-								<div class="face">
-									<a href="https://www.facebook.com/riclaudio.srodrigues" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-								</div>
-								<div class="link">
-									<a href="https:www.linkedin.com/in/riclaudiosrodrigues" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-								</div>
-							</div>
-					</td>
-				</tr>
-			</table>			
-			<div class="inform">
-				<div>
-					<h2>Formação acadêmica</h2>
-				</div>
-				<div id="divfac">
-					<div>
-						<img class="logofacu" src="imagens/logo uninove.png" alt="">
-						<h3>Universidade</h3>
-						<p>Universidade nove de julho.</p>
-					</div>
-					<div>
-						<h4>Curso</h4>
-						<p>Análise e desenvolvimento de sistemas.</p>
-					</div>
-				</div>
-				<div>
-					<h2>Formação complementar</h2>
-				</div>
-				<div id="ulcurso">
-					<ul id="ul1">
-						<h3></h3> 
-						<li>HTML5 e CSS3</li>
-						<li>JAVASCRIPT</li>
-						<li>PHP</li>
-						<li>JAVA</li>
-					</ul>
-					<ul id="ul2">
-						<li>MYSQL</li>
-						<li>JAVAPOO</li>
-						<li>ALGORITIMO</li>	
-					</ul>
-				</div>
-			</div>
-		</section>
-		<div class="projeto">
-			<h2>Projetos</h2>
-		</div>
-		<section class="conteneo">
-			
-			<div class="item" id="projeto01">
-				<div>
-					<h2>Site.</h2>
-				</div>
-				<div>
-					<p id="descricao">Projeto desenvolvido durante o curso de html5 e css3,
-					da plataforma <a href="https://www.cursoemvideo.com/" target="_blank" rel="externo">
-						cursoemvideo.com</a>. Contendo a história do mascote do android. Mascote desenvovido pela criadora 
-					 <a href="https://www.irinablok.com/android" target="_blank" rel="externo"> Irina Blok</a>.  
-					</p>
-				</div>
-				<div>
-					<p id="criador">Site desenvolvido pelo professor <a href="https://github.com/gustavoguanabara" target="_blank" rel="external">
-						Gustavo Guanabara</a>. 
-					 </p>
-				</div>
-			</div>
-			<div class="item" id="projeto02">
-				<div>
-					<h2>Projeto ir com Php.</h2>
-				</div>
-				<div>
-					<p>
-						Formulário em php, com conexão com banco de dados mysql. 
-						projeto desenvolvido para o recebimentos de dados, para a declaração de imposto de renda.
-						Acesse o projeto no meu repositório no github:<a href="https://github.com/riclaudiosr">github.com/riclaudiosr</a>.
-					</p>
-				</div>
-				<div>
-					<p id="criador"> Projeto desenvolvido por <a href="https://github.com/gustavoguanabara" target="_blank" rel="external">
-						Riclaudio Rodrigues</a>.</p>
-				</div>
-			</div>
-			<div class="item" id="projeto03">
-				<div> 
-					<h2>Portifólio. </h2>
-				</div>
-				<div>
-					<p id="descricao">Portifólio de apresentação profissional, apresentando conhecimento, técnicas, habilidades e 
-						experiências no desenvolvimento. Pagina responsiva empregando o uso das novas tecnologias.</p>
-				</div>
-				<div >
-					<p id="criador"> Portifólio desenvolvido por: <a href="https://www.linkedin.com/in/riclaudiosrodrigues" target="_blank">
-						Riclaudio Rodrigues.</a> 
-						 <strong>Github:</strong>  <a href="https://github.com/riclaudiosr">riclaudiosr@github.com</a> </p>
-					
-				</div>
-			</div>	
-		</section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="imagens/favicon-rsr4.png"
+      type="image/x-icon"
+    />
+    <title>Portiólio</title>
+    <link rel="stylesheet" href="./style/stile.css" />
+  </head>
+  <body class="pagina">
+    <header id="header">
+      <span class="logo">Portifólio</span>
+      <nav id="nav">
+        <button
+          aria-label="Abrir Menu"
+          id="btn-mobile"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
+        >
+          Menu
+          <span id="hamburger"></span>
+        </button>
+        <ul id="menu" role="menu">
+          <li><a href="projetos/sobre.html">Sobre</a></li>
+          <li>
+            <a href="./projetos/form_curriculo/curriculo.html">Curriculo</a>
+          </li>
+          <li>
+            <a href="projetos/certificados/certi.html" target="_blank"
+              >Certificados</a
+            >
+          </li>
+          <li><a href="projetos/form_email/index.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <script src="./script.js"></script>
+    <main class="main">
+      <section class="fundo">
+        <table class="cabecalho">
+          <tr>
+            <td class="tema">
+              <h1>Riclaudio de Souza Rodrigues</h1>
+              <p>Desenvolvedor Júnior</p>
+            </td>
+            <td class="img">
+              <div id="imagem">
+                <img
+                  class="imagemperfi"
+                  src="imagens/perfil03.png"
+                  alt="imagem-perfil"
+                />
+              </div>
+              <div class="icone">
+                <div class="git">
+                  <a href="https://github.com/riclaudiosr" target="_blank"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                </div>
+                <div class="face">
+                  <a
+                    href="https://www.facebook.com/riclaudio.srodrigues"
+                    target="_blank"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                </div>
+                <div class="link">
+                  <a
+                    href="https:www.linkedin.com/in/riclaudiosrodrigues"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <div class="inform">
+          <div>
+            <h2>Formação acadêmica</h2>
+          </div>
+          <div id="divfac">
+            <div>
+              <img class="logofacu" src="imagens/logo uninove.png" alt="" />
+              <h3>Universidade</h3>
+              <p>Universidade nove de julho.</p>
+            </div>
+            <div>
+              <h4>Curso</h4>
+              <p>Análise e desenvolvimento de sistemas.</p>
+            </div>
+          </div>
+          <div>
+            <h2>Formação complementar</h2>
+          </div>
+          <div id="ulcurso">
+            <ul id="ul1">
+              <h3></h3>
+              <li>HTML5 e CSS3</li>
+              <li>JAVASCRIPT</li>
+              <li>PHP</li>
+              <li>JAVA</li>
+            </ul>
+            <ul id="ul2">
+              <li>MYSQL</li>
+              <li>JAVAPOO</li>
+              <li>ALGORITIMO</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="projeto">
+        <h2>Projetos</h2>
+      </div>
+      <section class="conteneo">
+        <div class="item" id="projeto01">
+          <div>
+            <h2>Site.</h2>
+          </div>
+          <div>
+            <p id="descricao">
+              Projeto desenvolvido durante o curso de html5 e css3, da
+              plataforma
+              <a
+                href="https://www.cursoemvideo.com/"
+                target="_blank"
+                rel="externo"
+              >
+                cursoemvideo.com</a
+              >. Contendo a história do mascote do android. Mascote desenvovido
+              pela criadora
+              <a
+                href="https://www.irinablok.com/android"
+                target="_blank"
+                rel="externo"
+              >
+                Irina Blok</a
+              >.
+            </p>
+          </div>
+          <div>
+            <p id="criador">
+              Site desenvolvido pelo professor
+              <a
+                href="https://github.com/gustavoguanabara"
+                target="_blank"
+                rel="external"
+              >
+                Gustavo Guanabara</a
+              >.
+            </p>
+          </div>
+        </div>
+        <div class="item" id="projeto02">
+          <div>
+            <h2>Projeto ir com Php.</h2>
+          </div>
+          <div>
+            <p>
+              Formulário em php, com conexão com banco de dados mysql. projeto
+              desenvolvido para o recebimentos de dados, para a declaração de
+              imposto de renda. Acesse o projeto no meu repositório no github:<a
+                href="https://github.com/riclaudiosr"
+                target="_blank"
+                >github.com/riclaudiosr</a
+              >.
+            </p>
+          </div>
+          <div>
+            <p id="criador">
+              Projeto desenvolvido por
+              <a
+                href="https://github.com/riclaudiosr"
+                target="_blank"
+                rel="external"
+              >
+                Riclaudio Rodrigues</a
+              >.
+            </p>
+          </div>
+        </div>
+        <div class="item" id="projeto03">
+          <div>
+            <h2>Portifólio.</h2>
+          </div>
+          <div>
+            <p id="descricao">
+              Portifólio de apresentação profissional, apresentando
+              conhecimento, técnicas, habilidades e experiências no
+              desenvolvimento. Pagina responsiva empregando o uso das novas
+              tecnologias.
+            </p>
+          </div>
+          <div>
+            <p id="criador">
+              Portifólio desenvolvido por:
+              <strong>Riclaudio Rodrigues.</strong>
+              <a href="https://github.com/riclaudiosr" target="_blank"
+                ><strong>Github:</strong></a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
-   <footer class="rodape">
-    	<p>Portifólio criado por <a href="https://github.com/riclaudiosr" target="_blank" rel="external">
-			Riclaudio Rodrigues</a>. E-mail: <a href="mailto:riclaudio.3@uni9.edu.br">riclaudio.3@uni9.edu.br</a></p> 
-    </footer> 	
-
-</body>
+    <footer class="rodape">
+      <p>
+        Portifólio criado por
+        <a href="https://github.com/riclaudiosr" target="_blank" rel="external">
+          Riclaudio Rodrigues</a
+        >. E-mail:
+        <a href="mailto:riclaudio.3@uni9.edu.br">riclaudio.3@uni9.edu.br</a>
+      </p>
+    </footer>
+  </body>
 </html>
-
-
-
-
