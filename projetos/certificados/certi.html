@@ -15,8 +15,6 @@
         text-align: center;
         font-weight: bold;}
     body{
-        
-        color: black;
         background-color:rgba(0, 0, 0, 0.966);}
     h1{
         padding: 20px;
@@ -24,17 +22,22 @@
         color: wheat;}
     h2{
         padding-top: 20px;
-        color: black;}
-    .conteneo{
-        background-color: gray;
-        display:block;
-        margin: 0 auto;}
-    @media(min-width:1000px){
+        color: white;}
         .conteneo{
             max-width: 1200px;
             margin: 0 auto;
+        }
+        .conteneo-item{
+            display: grid;
+            grid-template-columns: 50% auto;
+        }
+    
+    @media(max-width:1000px){
+        .conteneo-item{
+            max-width: 1200px;
+            margin: 0 auto;
             padding-bottom: 40px;
-            display: flex;}
+            display: block;}
      }
     .section{
         width: 500px;
@@ -48,7 +51,8 @@
 </style>
 <body>
     <h1>Certificado de Cursos Complementares </h1>
-    <section class="conteneo">   
+    <section class="conteneo">
+        <div class="conteneo-item">
         <div class="section">
             <div class="">
                 <h2>Curso de javascript</h2>
@@ -60,8 +64,38 @@
                 <h2>Curso Php</h2>
                 <embed class="item" src="doc/php.pdf" type="">
             </div>
-           
         </div>
+        <div class="section">
+            <div class="">
+                <h2>Curso Github</h2>
+                <embed class="item" src="doc/Git-e-GitHub-20-Horas-Certificado-Curso-em-Video.pdf" type="">
+            </div>
+        </div>
+        <div class="section">
+            <div class="">
+                <h2>Curso Mysql</h2>
+                <embed class="item" src="doc/MySQL-40-Horas-Certificado-Curso-em-Video.pdf" type="">
+            </div>
+        </div>
+        <div class="section">
+            <div class="">
+                <h2>Curso Html5-CSS3-1</h2>
+                <embed class="item" src="doc/Curso-HTML5-e-CSS3-modulo-1-de-5-40-HORAS-Certificado-Curso-em-Video.pdf" type="">
+            </div>
+        </div>
+        <div class="section">
+            <div class="">
+                <h2>Curso Html5-CSS3-2</h2>
+                <embed class="item" src="doc/Curso-HTML5-e-CSS3-modulo-2-de-5-40-HORAS-Certificado-Curso-em-Video.pdf" type="">
+            </div>
+        </div>
+        <div class="section">
+            <div class="">
+                <h2>Curso <Html5-CSS3-3></Html5-CSS3-3></h2>
+                <embed class="item" src="doc/Curso-HTML5-e-CSS3-modulo-3-de-5-40-HORAS-Certificado-Curso-em-Video.pdf" type="">
+            </div>
+        </div>
+    </div>
     </section>
 </body>
 </html>
